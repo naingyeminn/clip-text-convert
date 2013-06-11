@@ -51,6 +51,16 @@ This converter contains two python scripts to convert unicode to zawgyi and zawg
 
 <div style="float: right"><img src="https://dl.dropboxusercontent.com/u/26716001/Ubuntu/ScreenShots/clip-text-convert-shortcut.png"></div>
 
+
+##Uninstall
+
+- Change into the clip-text-convert directory in Terminal.
+
+- Run following command:
+
+        sudo make uninstall
+
+
 ##License
 
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
