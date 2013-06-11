@@ -12,14 +12,16 @@ This converter contains two python scripts to convert unicode to zawgyi and zawg
 ##Installation
 
 - Download [python-myanmar latest version](http://code.google.com/p/python-myanmar/downloads/list) and install first.
-    sudo dpkg -i [python-myanmar_0.0.2-0_all.deb](http://python-myanmar.googlecode.com/files/python-myanmar_0.0.2-0_all.deb)
+
+	sudo dpkg -i [python-myanmar_0.0.2-0_all.deb](http://python-myanmar.googlecode.com/files/python-myanmar_0.0.2-0_all.deb)
 
 - Download clip-text-convert zip file and extract it.
 
 - Change into the extracted directory in Terminal.
 
 - Run make command as root:
-    sudo make
+
+	sudo make
 
 ##Usage
 
