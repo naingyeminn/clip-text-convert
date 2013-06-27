@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Then number 20000 in line 6 is setting the timestamp of a Notificatoin. 
+#20000 = 20 seconds. You can change as you please.
+notitext=$(xclip -o | myanmar-converter -f 'zawgyi' -t 'unicode')
+notify-send -t 20000 "Clipboard" "$notitext"
