@@ -9,6 +9,8 @@ It can be used as a CLI tool and also be set as a keyboard shortcut key.
 
 This converter contains two python scripts to convert unicode to zawgyi and zawgyi to unicode.
 
+In addition, there are two Bash Scripts "noticonv" and "noticlip". "noticonv" is used for Pidgin to convert recent message of it into Unicode and "noticlip" will show the text in clipboard as notification after it's converted to unicode.
+
 ##Installation
 
 - Download [python-myanmar latest version](http://code.google.com/p/python-myanmar/downloads/list) and install first.
@@ -27,7 +29,7 @@ This converter contains two python scripts to convert unicode to zawgyi and zawg
 
 ###Zawgyi to Unicode
 
-- Copy the Zawgyi text
+- Copy the Zawgyi text.
 
 - Run the command "conv2uni" in terminal or press the shortcut key that you assigned.
 
@@ -35,11 +37,21 @@ This converter contains two python scripts to convert unicode to zawgyi and zawg
 
 ###Unicode to Zawgyi
 
-- Copy the Unicode text
+- Copy the Unicode text.
 
 - Run the command "conv2zg" in terminal or press the shortcut key that you assigned.
 
 - Paste the text (Ctrl + V) in somewhere you want.
+
+###Pidgin Message Notification
+
+- When someone send a message in Zawgyi and you are using IM on Pidgin, The message will be shown in Unicode as notification by runing the command "noticonv" in terminal or pressing the shortcut key that you assigned. 
+
+###Clipboard Text Notification
+
+- If you want to see the Zawgyi text in Unicode instantly, copy the Zawgyi text and run the command "noticlip" in terminal or pressing the shortcut key that you assigned.
+
+- The text you copied will be converted into Unicode and shown as Notification.
 
 ###Shortcut Assignment in Ubuntu
 
