@@ -72,6 +72,11 @@ In addition, there are two Bash Scripts "noticonv" and "noticlip". "noticonv" is
 
         sudo make uninstall
 
+##Demonstration on YouTube
+
+- [Applying Python-Myanmar with Clip-Text-Convert](http://www.youtube.com/watch?v=qHF2HvnsDu4)
+- [Unicode Converter for Pidgin](http://www.youtube.com/watch?v=OwgpP4sifVs)
+
 
 ##License
 
