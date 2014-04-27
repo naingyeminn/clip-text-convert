@@ -2,7 +2,7 @@
 
 #Then number 20000 in line 8 is setting the timestamp of a Notificatoin. 
 #20000 = 20 seconds. You can change as you please.
-var=`find /home/yeminn/.purple/logs/ -type f -mmin -1 -exec tail -n 3 {} \;`
+var=`find $HOME/.purple/logs/ -type f -mmin -1 -exec tail -n 3 {} \;`
 outtext=`echo $var | grep -oP "(?<=>)[^<]*"`
 notitext=$(echo "$outtext" | myanmar-converter -f 'zawgyi' -t 'unicode')
 notify-send -t 20000 "Pidgin" "$notitext"
